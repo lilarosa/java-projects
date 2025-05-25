@@ -1,0 +1,33 @@
+# 忽略编译生成的 class 文件
+*.class
+
+# 忽略日志文件
+*.log
+
+# 忽略临时文件
+*.tmp
+*.swp
+
+# 忽略 Windows 系统文件
+Thumbs.db
+.DS_Store
+
+# 忽略 VS Code 配置文件夹
+.vscode/
+
+# 忽略 IntelliJ IDEA 等 IDE 的配置文件夹
+.idea/
+*.iml
+out/
+
+# 忽略 Java 执行时生成的 JAR、WAR、EAR 包
+*.jar
+*.war
+*.ear
+
+# 忽略批处理脚本（可选）
+*.bat
+
+# 忽略本地配置文件（如运行脚本等）
+run-*.sh
+run-*.bat
