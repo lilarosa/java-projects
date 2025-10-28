@@ -10,8 +10,8 @@ import java.util.Random;
  */
 public class HelloWorldPlus {
     public static void main(String[] args) {
-        System.out.println("Hi, I'm Tao Wang. 👋");
-        System.out.println("Umschüler FI AE @ DAA Böblingen.");
+        System.out.println("Hi, I'm Tao. 👋");
+        System.out.println("Umschüler FI AE @ DAA.");
         System.out.println("Learning: Java, JS, Linux, Networks.");
 
         LocalDateTime now = LocalDateTime.now();
