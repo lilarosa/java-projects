@@ -38,34 +38,16 @@ zum Üben von Logik, objektorientierter Programmierung und Konsolenanwendungen.
 | # | Project | Description | Live Demo | Run Locally |
 |---|----------|--------------|------------|--------------|
 | 01 | 🖐️ HelloWorldPlus | First steps, print messages with variables. | — | `javac Main.java && java Main` |
-| 02 | ➕ SimpleCalculator | Simple calculator with user input. | [▶️ Run Demo (Replit)](https://replit.com/@lilarosa/SimpleCalculator) | `javac Main.java && java Main` |
-| 03 | 🌡️ TemperatureConverter | Celsius ↔ Fahrenheit converter. | [▶️ Run Demo](https://replit.com/@lilarosa/TemperatureConverter) | `javac Main.java && java Main` |
+| 02 | ➕ SimpleCalculator | Simple calculator with user input. | [▶️ Run Demo (Replit)](https://replit.com/join/idgklqxmcd-tt9898daa) | `javac Main.java && java Main` |
+| 03 | 🌡️ TemperatureConverter | Celsius ↔ Fahrenheit converter. | [▶️ Run Demo](https://replit.com/join/idgklqxmcd-tt9898daa) | `javac Main.java && java Main` |
 | 04 | 🏦 BankAccountDemo | Create, deposit, withdraw, show balance. | — | `javac BankAccount.java && java BankAccount` |
 | 05 | 🎓 StudentAverage | Input student grades & calculate average. | — | `javac StudentAverage.java && java StudentAverage` |
 | 06 | 🔐 PasswordChecker | Check password strength & security level. | — | `javac PasswordChecker.java && java PasswordChecker` |
-| 07 | 🎯 NumberGuessingGame | Guess the random number via console. | [▶️ Run Demo](https://replit.com/@lilarosa/NumberGuessingGame) | `javac NumberGuessingGame.java && java NumberGuessingGame` |
+| 07 | 🎯 NumberGuessingGame | Guess the random number via console. | [▶️ Run Demo](https://replit.com/join/idgklqxmcd-tt9898daa) | `javac NumberGuessingGame.java && java NumberGuessingGame` |
 | 08 | 📚 LibrarySystem | Manage books, add/remove entries. | — | `javac LibrarySystem.java && java LibrarySystem` |
 | 09 | 📐 ShapeAreaCalculator | Compute areas of shapes (OOP example). | — | `javac ShapeAreaCalculator.java && java ShapeAreaCalculator` |
 | 10 | ⚙️ ExceptionHandlingDemo | Practice try-catch-finally logic. | — | `javac ExceptionDemo.java && java ExceptionDemo` |
 
----
-
-## 🚀 Run in Replit (optional online demo)
-
-If you want to **make your “Live Demo” buttons work**,  
-you can upload each `.java` file to **[https://replit.com](https://replit.com)** and copy the link into the table above.
-
-Example:
-1. Create a new Replit → Language: Java  
-2. Upload `Main.java`  
-3. Click **Share → Copy Repl link**  
-4. Replace the placeholder:
-▶️ Run Demo
-
-yaml
-Code kopieren
-
----
 
 ## 🧰 Tech Stack / 技术栈 / Technologie-Stack
 ![Java](https://img.shields.io/badge/Java-ED8B00?logo=openjdk&logoColor=fff)
