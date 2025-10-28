@@ -1,45 +1,89 @@
-# ☕ Java Learning Repository  
-> 🇩🇪 **Klassische Übungsaufgaben in Java**  
-> 🇨🇳 **Java 经典学习练习项目集**  
-> 🇬🇧 **A collection of classic Java practice exercises**
+# ☕ Java Mini Projects – Learning & Practice
+
+[![Java](https://img.shields.io/badge/Language-Java-red?logo=openjdk&logoColor=fff)]()
+[![IDE](https://img.shields.io/badge/IDE-VSCode_|_IntelliJ-blue?logo=visualstudiocode&logoColor=fff)]()
+[![Build](https://img.shields.io/badge/Build-CLI_|_Javac-green?logo=gnu-bash&logoColor=fff)]()
 
 ---
 
-## 🎯 Ziel / 学习目标 / Goal
-🇩🇪 Dieses Repository dient als persönliches Lernarchiv und Übungsplattform für Java-Grundlagen, objektorientierte Programmierung und Prüfungs­vorbereitung (IHK Abschlussprüfung Teil 1 & 2).  
-🇨🇳 本仓库用于系统练习 Java 基础、面向对象编程（OOP）与 IHK 考试准备。  
-🇬🇧 This repository is designed as a personal learning archive for Java fundamentals, OOP practice, and IHK exam preparation.
+## 🇬🇧 English
+
+A collection of **10 beginner–intermediate Java projects**  
+for practicing logic, OOP (object-oriented programming), and command-line interaction.
+
+> 💡 Some projects also include console output or text-based demos.  
+> You can run them directly in VS Code or IntelliJ.
 
 ---
 
-## 🧭 Themen / 主题 / Topics
-`Basics` · `Control Flow` · `OOP` · `Arrays` · `Scanner Input` ·  
-`Inheritance` · `Polymorphism` · `Exception Handling` · `Encapsulation`  
+## 🇩🇪 Deutsch
+
+Eine Sammlung von **10 Java-Miniprojekten**  
+zum Üben von Logik, objektorientierter Programmierung und Konsolenanwendungen.
+
+> 💡 Einige Projekte sind mit Konsolenausgabe oder kleinen Demos versehen.  
+> Sie können direkt in VS Code oder IntelliJ ausgeführt werden.
 
 ---
 
-## 📚 Projektübersicht / 项目目录 / Project Overview
+## 🇨🇳 中文
 
-| Nr. | Projektname | 🇩🇪 Beschreibung | 🇨🇳 项目说明 | 🇬🇧 Description |
-|----:|--------------|----------------|---------------|----------------|
-| 1️⃣ | **HelloWorldPlus** | Ausgabe von persönlichen Infos, Zeit & Zufallszitat | 打印个人介绍、时间、随机名言 | Print personal info, current time & random quote |
-| 2️⃣ | **SimpleCalculator** | Konsolenrechner mit + - * / und Fehlerprüfung | 控制台计算器，支持四则运算与错误检测 | Console calculator with basic operations |
-| 3️⃣ | **TemperatureConverter** | Umrechnung zwischen Celsius & Fahrenheit | 摄氏度与华氏度转换 | Temperature conversion (C↔F) |
-| 4️⃣ | **BankAccountDemo** | Einfache Bankkonto-Klasse mit Ein-/Auszahlung | 银行账户类：存款、取款与查询 | BankAccount class with deposit & withdrawal |
-| 5️⃣ | **StudentAverage** | Durchschnittsnote und Bewertung berechnen | 计算学生平均分与等级 | Calculate student average & grade |
-| 6️⃣ | **PasswordChecker** | Passwortstärke-Prüfung (Länge, Zeichenarten) | 检查密码强度 | Password strength validation |
-| 7️⃣ | **NumberGuessingGame** | Zahl zwischen 1–100 erraten | 猜数字游戏（1–100） | Number guessing game |
-| 8️⃣ | **LibrarySystem** | Bücher hinzufügen & suchen (ArrayList) | 简易图书管理系统 | Simple book management system |
-| 9️⃣ | **ShapeAreaCalculator** | Flächenberechnung mit Vererbung & Polymorphie | 用继承和多态计算图形面积 | Shape area calculation with inheritance |
-| 🔟 | **ExceptionHandlingDemo** | Umgang mit Exceptions (`try-catch-finally`) | 异常处理机制演示 | Exception handling demonstration |
+包含 **10 个 Java 小练习项目**，用于巩固逻辑思维、面向对象编程与控制台交互。  
+> 💡 部分项目带有控制台运行示例，可直接在 VS Code 或 IntelliJ 中运行。
 
 ---
 
-## ⚙️ Ausführen / 运行方式 / How to Run
-🇩🇪 Kompilieren Sie eine Datei und führen Sie sie aus:  
-🇨🇳 编译并运行示例：  
-🇬🇧 Compile and run an example:
+## 🔹 Project List
 
-```bash
+| # | Project | Description | Live Demo | Run Locally |
+|---|----------|--------------|------------|--------------|
+| 01 | 🖐️ HelloWorldPlus | First steps, print messages with variables. | — | `javac Main.java && java Main` |
+| 02 | ➕ SimpleCalculator | Simple calculator with user input. | [▶️ Run Demo (Replit)](https://replit.com/@lilarosa/SimpleCalculator) | `javac Main.java && java Main` |
+| 03 | 🌡️ TemperatureConverter | Celsius ↔ Fahrenheit converter. | [▶️ Run Demo](https://replit.com/@lilarosa/TemperatureConverter) | `javac Main.java && java Main` |
+| 04 | 🏦 BankAccountDemo | Create, deposit, withdraw, show balance. | — | `javac BankAccount.java && java BankAccount` |
+| 05 | 🎓 StudentAverage | Input student grades & calculate average. | — | `javac StudentAverage.java && java StudentAverage` |
+| 06 | 🔐 PasswordChecker | Check password strength & security level. | — | `javac PasswordChecker.java && java PasswordChecker` |
+| 07 | 🎯 NumberGuessingGame | Guess the random number via console. | [▶️ Run Demo](https://replit.com/@lilarosa/NumberGuessingGame) | `javac NumberGuessingGame.java && java NumberGuessingGame` |
+| 08 | 📚 LibrarySystem | Manage books, add/remove entries. | — | `javac LibrarySystem.java && java LibrarySystem` |
+| 09 | 📐 ShapeAreaCalculator | Compute areas of shapes (OOP example). | — | `javac ShapeAreaCalculator.java && java ShapeAreaCalculator` |
+| 10 | ⚙️ ExceptionHandlingDemo | Practice try-catch-finally logic. | — | `javac ExceptionDemo.java && java ExceptionDemo` |
+
+---
+
+## 🚀 Run in Replit (optional online demo)
+
+If you want to **make your “Live Demo” buttons work**,  
+you can upload each `.java` file to **[https://replit.com](https://replit.com)** and copy the link into the table above.
+
+Example:
+1. Create a new Replit → Language: Java  
+2. Upload `Main.java`  
+3. Click **Share → Copy Repl link**  
+4. Replace the placeholder:
+▶️ Run Demo
+
+yaml
+Code kopieren
+
+---
+
+## 🧰 Tech Stack / 技术栈 / Technologie-Stack
+![Java](https://img.shields.io/badge/Java-ED8B00?logo=openjdk&logoColor=fff)
+![CLI](https://img.shields.io/badge/Console_App-grey?logo=gnubash&logoColor=fff)
+![OOP](https://img.shields.io/badge/OOP-Classes_&_Objects-blue)
+![Exception](https://img.shields.io/badge/Error_Handling-try/catch-yellow)
+![Input](https://img.shields.io/badge/User_Input-Scanner-green)
+
+---
+
+### 🧑‍💻 Author
+**Tao**  
+Umschülerin zur Fachinformatikerin – Fachrichtung Anwendungsentwicklung  
+Learning Java · JavaScript · Linux · Networking
+
+📎 https://github.com/lilarosa/java-projects  
+📍 Germany 🇩🇪
+
+---
 javac 02_SimpleCalculator/SimpleCalculator.java
 java -cp 02_SimpleCalculator SimpleCalculator
