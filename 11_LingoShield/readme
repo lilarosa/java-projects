@@ -1,0 +1,44 @@
+# 🛡️ LingoShield - Einfacher QA-Terminologieprüfer
+
+**LingoShield** ist ein leichtgewichtiges Java-Tool zur Qualitätssicherung (QA) von Übersetzungen.
+Es simuliert die Logik professioneller CAT-Tools (wie Trados oder memoQ), um sicherzustellen, dass Fachterminologie konsistent verwendet wird.
+
+---
+
+## 🚀 Kernfunktionen
+
+- **Terminologie-Abgleich**: Nutzt eine `HashMap` als zweisprachiges Glossar.
+- **Automatisierte Prüfung**: Erkennt Schlüsselwörter im Ausgangstext und prüft, ob die korrekte Übersetzung im Zieltext vorhanden ist.
+- **Fehlermeldung**: Gibt eine Warnung aus, wenn ein Begriff im Zieltext fehlt oder falsch übersetzt wurde.
+
+## 🛠️ Technische Highlights (Lerneffekte)
+
+In diesem Projekt habe ich folgende Java-Konzepte angewendet und vertieft:
+
+1. **Java Collections Framework**:
+   - Effizientes Durchlaufen von Key-Value-Paaren mittels `Map.Entry<String, String>` und `entrySet()`.
+   - Verständnis der Performance-Vorteile gegenüber `keySet()`.
+2. **String-Verarbeitung**:
+   - Logische Prüfung von Textbausteinen mit der `.contains()` Methode.
+3. **Debugging & Fehleranalyse**:
+   - Unterscheidung zwischen **Syntaxfehlern** (vom Compiler erkannt) und **Semantikfehlern** (logische Fehler).
+   - Nutzung von Breakpoints und der *Variables View* in Eclipse zur Fehlerdiagnose.
+
+## 📖 Logik-Beispiel
+
+- **Glossar**: `Invoice` -> `Számla`
+- **Ausgangstext (Source)**: "Please check the **Invoice**."
+- **Zieltext (Target)**: "Kérjük, ellenőrizze a dokumentumot." (Fachbegriff fehlt)
+- **Ergebnis**: ❌ `Terminologie-Fehler: 'Invoice' gefunden, aber 'Számla' fehlt im Zieltext.`
+
+---
+
+## 💻 Ausführung
+
+1. Klonen Sie das Repository oder laden Sie die Datei `LingoShield.java` herunter.
+2. Öffnen Sie das Projekt in Eclipse oder einer anderen Java-IDE.
+3. Starten Sie das Programm und folgen Sie den Anweisungen in der Konsole.
+
+## 💡 Entwickler-Notiz
+
+Dieses Projekt markiert meinen Einstieg in die professionelle Java-Entwicklung. Es zeigt, wie Code genutzt werden kann, um reale Geschäftsprozesse (wie die Lokalisierung) zu optimieren. Besonders wichtig war mir hierbei das Erlernen systematischer Debugging-Strategien, um auch logisch komplexe **Semantikfehler** effizient zu beheben.
