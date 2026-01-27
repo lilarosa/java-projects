@@ -47,7 +47,7 @@ zum Üben von Logik, objektorientierter Programmierung und Konsolenanwendungen.
 | 08 | 📚 LibrarySystem | Manage books, add/remove entries. | — | `javac LibrarySystem.java && java LibrarySystem` |
 | 09 | 📐 ShapeAreaCalculator | Compute areas of shapes (OOP example). | — | `javac ShapeAreaCalculator.java && java ShapeAreaCalculator` |
 | 10 | ⚙️ ExceptionHandlingDemo | Practice try-catch-finally logic. | — | `javac ExceptionDemo.java && java ExceptionDemo` |
-
+| 11 | ⚙️ LingoShield | QA-Tool für Terminologieprüfung Übersetzung-HashMap, String-Logik, Semantik-Check. | — | [(https://github.com/lilarosa/java-projects/tree/main/11_LingoShield) |
 
 ## 🧰 Tech Stack / 技术栈 / Technologie-Stack
 ![Java](https://img.shields.io/badge/Java-ED8B00?logo=openjdk&logoColor=fff)
