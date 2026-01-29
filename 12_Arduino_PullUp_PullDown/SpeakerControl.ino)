@@ -1,0 +1,26 @@
+/**
+ * Projekt: Speaker Control via Pull-up/Pull-down
+ * Beschreibung: Steuerung eines Lautsprechers durch Tastendruck.
+ * Fokus: Vermeidung von "Floating States" (unbestimmten Zuständen).
+ */
+
+const int buttonPin = 2; 
+const int speakerPin = 8;
+
+void setup() {
+  // Wenn interner Pull-up genutzt wird:
+  // pinMode(buttonPin, INPUT_PULLUP); 
+  pinMode(buttonPin, INPUT);
+  pinMode(speakerPin, OUTPUT);
+}
+
+void loop() {
+  int buttonState = digitalRead(buttonPin);
+  
+  // Logik: Ton nur abspielen, wenn der Pin einen definierten Status hat
+  if (buttonState == HIGH) { 
+    tone(speakerPin, 440); // A4 Note
+  } else {
+    noTone(speakerPin);
+  }
+}
