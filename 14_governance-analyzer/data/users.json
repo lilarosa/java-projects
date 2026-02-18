@@ -1,0 +1,16 @@
+[
+  {
+    "id": "001",
+    "name": "Max Mustermann",
+    "role": "ADMIN",
+    "lastLoginDate": "2025-10-15",
+    "hasMFA": false
+  },
+  {
+    "id": "002",
+    "name": "Lila Rosa",
+    "role": "USER",
+    "lastLoginDate": "2026-02-10",
+    "hasMFA": true
+  }
+]
